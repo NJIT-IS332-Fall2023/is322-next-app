@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import { Text } from "../app/components/Text"
-import { Block } from '../app/components/Block'
+import { Text } from "../components/Text"
+import { Block } from '../components/Block'
 
-export default function Home() {
+export default function Page1() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
